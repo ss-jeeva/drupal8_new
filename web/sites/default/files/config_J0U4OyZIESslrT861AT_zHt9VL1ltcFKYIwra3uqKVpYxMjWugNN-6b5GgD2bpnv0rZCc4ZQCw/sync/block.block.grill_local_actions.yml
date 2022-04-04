@@ -1,0 +1,20 @@
+uuid: 1c614946-16dc-4e25-971f-84e06fdb067a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - grill
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: grill_local_actions
+theme: grill
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

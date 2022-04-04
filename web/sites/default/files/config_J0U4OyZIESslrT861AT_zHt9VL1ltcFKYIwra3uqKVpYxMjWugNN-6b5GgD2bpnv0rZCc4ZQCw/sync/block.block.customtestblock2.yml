@@ -1,0 +1,20 @@
+uuid: c6772867-4f47-41b7-8284-8f29f64f6acb
+langcode: en
+status: true
+dependencies:
+  module:
+    - d9_custom
+  theme:
+    - bartik
+id: customtestblock2
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: custom_test_block2
+settings:
+  id: custom_test_block2
+  label: 'Custom Test Block 2'
+  provider: d9_custom
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 9c2adbf6-71ac-4f95-ac00-5ea78c3a9f42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.main_menu.field_menu_path
+    - taxonomy.vocabulary.main_menu
+  module:
+    - text
+id: taxonomy_term.main_menu.default
+targetEntityType: taxonomy_term
+bundle: main_menu
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_menu_path:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

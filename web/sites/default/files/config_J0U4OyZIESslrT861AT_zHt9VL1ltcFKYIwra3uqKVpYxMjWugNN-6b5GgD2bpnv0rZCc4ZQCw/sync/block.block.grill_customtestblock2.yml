@@ -1,0 +1,20 @@
+uuid: 03d6ba04-940a-4ae8-9f6b-c594a66c1456
+langcode: en
+status: true
+dependencies:
+  module:
+    - d9_custom
+  theme:
+    - grill
+id: grill_customtestblock2
+theme: grill
+region: header_top
+weight: 0
+provider: null
+plugin: custom_test_block2
+settings:
+  id: custom_test_block2
+  label: 'Custom Test Block 2'
+  provider: d9_custom
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: e3b90172-9b17-4ac4-88f8-319924869f6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_menu_path
+    - taxonomy.vocabulary.main_menu
+  module:
+    - text
+id: taxonomy_term.main_menu.field_menu_path
+field_name: field_menu_path
+entity_type: taxonomy_term
+bundle: main_menu
+label: 'Menu Path'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

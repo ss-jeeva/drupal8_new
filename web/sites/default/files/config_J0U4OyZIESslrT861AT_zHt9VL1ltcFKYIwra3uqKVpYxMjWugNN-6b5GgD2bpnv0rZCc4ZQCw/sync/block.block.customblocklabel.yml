@@ -1,0 +1,22 @@
+uuid: c483fed2-bd0f-4146-962f-5abb3d2fc363
+langcode: en
+status: true
+dependencies:
+  module:
+    - d9_custom
+  theme:
+    - bartik
+id: customblocklabel
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: custom_test_block
+settings:
+  id: custom_test_block
+  label: CustomBlockLabel
+  provider: d9_custom
+  label_display: visible
+  user_name: ''
+  email_address: ''
+visibility: {  }

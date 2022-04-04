@@ -1,0 +1,10 @@
+uuid: e59107d4-b1c4-4954-85e5-a1b322e2d73d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.minimal_text
+label: 'Minimal Text'
+targetEntityType: node
+cache: true

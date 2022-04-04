@@ -1,0 +1,14 @@
+uuid: e947876f-7a82-452b-88b5-8c095f26c089
+name: 'Drupal 8 Updated'
+mail: admin@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

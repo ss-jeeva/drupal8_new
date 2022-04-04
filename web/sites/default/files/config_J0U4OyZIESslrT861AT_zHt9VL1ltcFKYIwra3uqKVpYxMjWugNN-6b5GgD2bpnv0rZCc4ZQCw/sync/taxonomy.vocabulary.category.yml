@@ -1,0 +1,8 @@
+uuid: cb894f86-03b1-4be1-9705-bb490abe1995
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: ''
+weight: 0

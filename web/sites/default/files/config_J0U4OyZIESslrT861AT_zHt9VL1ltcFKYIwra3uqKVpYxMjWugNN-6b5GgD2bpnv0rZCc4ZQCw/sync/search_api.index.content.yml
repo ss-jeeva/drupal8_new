@@ -1,0 +1,42 @@
+uuid: c408c0b6-19cb-4b86-b4d1-4f598868c7b2
+langcode: en
+status: false
+dependencies:
+  config:
+    - field.storage.node.field_category
+  module:
+    - search_api
+    - node
+id: content
+name: content
+description: ''
+read_only: false
+field_settings:
+  field_category:
+    label: Category
+    datasource_id: 'entity:node'
+    property_path: field_category
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_category
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: ''

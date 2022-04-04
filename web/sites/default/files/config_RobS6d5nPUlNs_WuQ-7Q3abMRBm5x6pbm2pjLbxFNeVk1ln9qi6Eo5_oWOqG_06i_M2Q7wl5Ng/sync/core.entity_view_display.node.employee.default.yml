@@ -1,0 +1,28 @@
+uuid: a679cc34-eb7d-4fcb-8da5-4d6f50f80f2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employee.body
+    - node.type.employee
+  module:
+    - text
+    - user
+id: node.employee.default
+targetEntityType: node
+bundle: employee
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

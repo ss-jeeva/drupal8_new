@@ -1,0 +1,22 @@
+uuid: 8323d7de-54da-48e3-95a0-2c8de0e1f0c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - d9_custom
+  theme:
+    - grill
+id: grill_customblocklabel
+theme: grill
+region: header_top
+weight: 0
+provider: null
+plugin: custom_test_block
+settings:
+  id: custom_test_block
+  label: CustomBlockLabel
+  provider: d9_custom
+  label_display: visible
+  user_name: ''
+  email_address: ''
+visibility: {  }

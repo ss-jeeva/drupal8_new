@@ -1,0 +1,20 @@
+uuid: c1b88425-1e0c-491c-acaf-22b4d1010c5a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - grill
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: grill_page_title
+theme: grill
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

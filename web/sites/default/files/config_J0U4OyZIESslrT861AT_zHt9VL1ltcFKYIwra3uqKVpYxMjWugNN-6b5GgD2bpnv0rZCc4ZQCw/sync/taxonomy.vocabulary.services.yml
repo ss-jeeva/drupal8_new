@@ -1,0 +1,8 @@
+uuid: 95a23186-5562-4869-add2-410149aa25de
+langcode: en
+status: true
+dependencies: {  }
+name: Services
+vid: services
+description: 'List of services'
+weight: 0
